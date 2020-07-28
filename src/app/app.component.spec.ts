@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'Angular6FirebaseCRUD'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Angular6FirebaseCRUD');
+    expect(app.user).toEqual('Angular6FirebaseCRUD');
   });
 
   it('should render title', () => {
